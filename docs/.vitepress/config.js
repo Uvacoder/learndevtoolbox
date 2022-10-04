@@ -1,4 +1,5 @@
 export default {
+	base: "/developer-cheat-sheet/",
 	title: "Developer Cheat Sheet",
 	description: "A place where you can find valuable knwoledge about softweare architecture",
 	themeConfig: {
