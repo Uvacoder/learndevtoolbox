@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,a as r}from"./app.13078fa3.js";const u=JSON.parse('{"title":"About","description":"","frontmatter":{},"headers":[],"relativePath":"about/index.md"}'),n={name:"about/index.md"},o=r("",3),s=[o];function i(c,d,h,l,_,p){return t(),a("div",null,s)}const f=e(n,[["render",i]]);export{u as __pageData,f as default};
