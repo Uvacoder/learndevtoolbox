@@ -14,7 +14,7 @@ In the space and time there is matter and energy.
 
 ### Senses
 
-Where existing living beings have the ability to percieve **external and internal fisical stimulations** through certain **organs** that are passed to our **nervous system**:
+Where existing living beings have the ability to perceive **external and internal physical stimulations** through certain **organs** that are passed to our **nervous system**:
 
 - **sight**
 - **hearing**
@@ -22,7 +22,7 @@ Where existing living beings have the ability to percieve **external and interna
 - taste
 - touch
 
-**Fisical signals** that can **vary in their frequency, width**, ... and transform in **different color values** decomposed into combinations of red, green and blue or **different values of words** decomposed into fonems, a, ae, e, i, o , u, ... depending on the language.
+**Physical signals** that can **vary in their frequency, width**, ... and transform in **different color values** decomposed into combinations of red, green and blue or **different values of words** decomposed into phonemes, a, ae, e, i, o , u, ... depending on the language.
 
 ![Light spectrum](./assets/light.jpeg)
 _Light spectrum_
@@ -59,7 +59,7 @@ _Relations_
 
 | Value                    | Roman        | Decimal | Binary |
 | ------------------------ | ------------ | ------- | ------ |
-| 0                        | Non existant | 0       | 0      |
+| 0                        | Non existent | 0       | 0      |
 | next(0)                  | I            | 1       | 1      |
 | next( next(0))           | II           | 2       | 10     |
 | ...                      | ...          | ...     | ...    |
@@ -85,13 +85,13 @@ Pattern in science:
 | Body/Entity                       | Identity                                                                    |
 | --------------------------------- | --------------------------------------------------------------------------- |
 | What it is, exists or can exist   | Set of characteristics that differentiates something or someone from others |
-| What makes something's essence be | Consience that someone or a group has to be their own and not other         |
+| What makes something's essence be | Conscience that someone or a group has to be their own and not other        |
 
 | Equal                                                                               | Context                                                                       |
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | That has the same characteristics of another person or thing in some or all aspects | Precision: necessary to provide the grade of precision when comparing quality |
 | Of the same class or condition                                                      | Identifier: people's names or nicknames, concepts, my first child...          |
-| Of the same value or preciousnes                                                    |                                                                               |
+| Of the same value or preciousness                                                   |                                                                               |
 
 ## For what?
 
@@ -111,18 +111,18 @@ It will eventually repeat. Example of recurrent pattern would be the rain. You d
 
 It repeats, the end of one iteration directly connects with the beginning of a new one. Example of an iterative pattern would be day and night.
 
-#### Recurrsive
+#### Recursive
 
 It repeats in itself. You can amplify or reduce its point of view and it will replicate the same structure.
 
-### Recursivity everywhere
+### Recursion everywhere
 
-We can find examples of recursivity in nature
+We can find examples of recursion in nature
 
 ![Caracola](./assets/caracola.jpg)
 _Caracola_
 
-![Brecoli](./assets/brecoli.jfif)
+![Brocoli](./assets/brecoli.jfif)
 _Brocoli_
 
 In our daily life
@@ -140,7 +140,7 @@ In art
 | <ColoredText text="Line" color="blue"/> | <ColoredText text="Three points" color="green"/> | <ColoredText text="Circle" color="red"/> |
 | --------------------------------------- | ------------------------------------------------ | ---------------------------------------- |
 | ![Line](./assets/linea.png)             | ![Triangle](./assets/triangulo.png)              | ![Circle](./assets/circulo.png)          |
-| Sequence                                | Alternance                                       | Circularity                              |
+| Sequence                                | Alternation                                      | Circularity                              |
 
 ## Patterns in software
 
@@ -158,7 +158,29 @@ In art
 
 ### Flow control sentences
 
-| <ColoredText text="Line" color="blue"/>       | <ColoredText text="Three points" color="green"/> | <ColoredText text="Circle" color="red"/>                             |
-| --------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------- |
-| Sequencial sentence                           | Alternative sentence                             | Iterative sentence                                                   |
-| <!--@include: ./components/SequenceCode.md--> | <!--@include: ./components/AlternanceCode.md-->  | `while (x>0){ ...}do { ...} while(x>0);for(int i=0; i<0; i++){ ...}` |
+| <ColoredText text="Line" color="blue"/>            | <ColoredText text="Three points" color="green"/>    | <ColoredText text="Circle" color="red"/>            |
+| -------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| Sequential sentence                                | Alternant sentence                                  | Iterative sentence                                  |
+| <!--@include: ./prettier-ignore/SequenceCode.md--> | <!--@include: ./prettier-ignore/AlternantCode.md--> | <!--@include: ./prettier-ignore/IterativeCode.md--> |
+
+### Development methodologies
+
+| <ColoredText text="Line" color="blue"/>      | <ColoredText text="Three points" color="green"/>  | <ColoredText text="Circle" color="red"/>     |
+| -------------------------------------------- | ------------------------------------------------- | -------------------------------------------- |
+| <ColoredText text="Waterfall" color="blue"/> | <ColoredText text="Crystal Clear" color="green"/> | <ColoredText text="Iteratives" color="red"/> |
+| ![Waterfall](./assets/waterfall.jpg)         | ![Crystal clear](./assets/crystalClear.jpg)       | ![XP](./assets/xp.png)                       |
+
+## Domain model
+
+The **domain model** describes the **most important concepts (types of objects)** of a context, things like objects from the domain and the relations between them.
+
+- **Business objects** that represent things that are manipulated by the business.
+- **Real world objects and concepts** which a system has to keep track of.
+- **Events** that will or have already occur.
+
+With the objective of
+
+- **Comprehend the structure and dynamics** of the organization in which the system will be developed.
+- **Comprehend the latest problems** of the target organization.
+- Ensure that **clients**, **final users** and **developers** have a **common comprehension** of the target organization.
+- Obtain the **requirements** of the system to help the target organization.
