@@ -13,6 +13,7 @@ export default {
 				text: "Recurrency",
 				collapsible: true,
 				items: [
+					{ text: "Intro", link: "/recurrency/" },
 					{ text: "Patterns", link: "/recurrency/patterns/" },
 					{ text: "Knowledge", link: "/recurrency/knowledge.md" }
 				]
@@ -20,32 +21,32 @@ export default {
 			{
 				text: "Programing - OOP",
 				collapsible: true,
-				items: [{ text: "Test", link: "/recurrency/patterns/" }]
+				items: [{ text: "Intro", link: "/oop/" }]
 			},
 			{
 				text: "Object Oriented Design",
 				collapsible: true,
-				items: [{ text: "Test", link: "/recurrency/patterns/" }]
+				items: [{ text: "Intro", link: "/ood/" }]
 			},
 			{
 				text: "Patterns",
 				collapsible: true,
-				items: [{ text: "Test", link: "/recurrency/patterns/" }]
+				items: [{ text: "Intro", link: "/patterns/" }]
 			},
 			{
 				text: "Software Architecture",
 				collapsible: true,
-				items: [{ text: "Test", link: "/recurrency/patterns/" }]
+				items: [{ text: "Intro", link: "/software-architecture/" }]
 			},
 			{
 				text: "Unified Process",
 				collapsible: true,
-				items: [{ text: "Test", link: "/recurrency/patterns/" }]
+				items: [{ text: "Intro", link: "/unified-process/" }]
 			},
 			{
 				text: "Agile",
 				collapsible: true,
-				items: [{ text: "Test", link: "/recurrency/patterns/" }]
+				items: [{ text: "Intro", link: "/agile/" }]
 			}
 		]
 	}
