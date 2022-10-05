@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t}from"./app.4eedfabb.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"recurrency/software-disciplines/index.md"}'),n={name:"recurrency/software-disciplines/index.md"};function s(a,c,o,i,d,p){return r(),t("div")}const l=e(n,[["render",s]]);export{f as __pageData,l as default};

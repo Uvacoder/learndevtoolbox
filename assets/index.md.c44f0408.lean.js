@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,d as o}from"./app.4eedfabb.js";const g=JSON.parse('{"title":"Welcome! \u{1F973}","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),a={name:"index.md"},i=o("",5),n=[i];function s(l,c,d,f,h,p){return t(),r("div",null,n)}const u=e(a,[["render",s]]);export{g as __pageData,u as default};
