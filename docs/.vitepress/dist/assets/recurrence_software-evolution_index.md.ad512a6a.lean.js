@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./app.be19e732.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"recurrence/software-evolution/index.md"}'),o={name:"recurrence/software-evolution/index.md"};function n(a,c,s,i,d,p){return t(),r("div")}const l=e(o,[["render",n]]);export{f as __pageData,l as default};
