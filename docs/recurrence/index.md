@@ -1,3 +1,3 @@
 # Recurrence
 
-Recurrence is extremely important to understand since its present in all things that exist and software is no different. Here you fill find **why** we need to understan recurrence, **how** we can use it to our advantage and **what** it is.
+Recurrence is extremely important to understand since its present in all things that exist physically and conceptually. Here you fill find **what** exactly is recurrence, **why** we need to understand it, **how** we can use it to our advantage and **what** it is.

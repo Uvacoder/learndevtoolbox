@@ -105,7 +105,7 @@ For what do we need patterns?
 
 #### Recurrent
 
-It will eventually repeat. Example of recurrent pattern would be the rain. You dont know when but it will eventually rain at some point.
+It will eventually repeat. Example of recurrent pattern would be the rain. You don't know when but it will eventually rain at some point.
 
 #### Iterative
 
@@ -184,3 +184,35 @@ With the objective of
 - **Comprehend the latest problems** of the target organization.
 - Ensure that **clients**, **final users** and **developers** have a **common comprehension** of the target organization.
 - Obtain the **requirements** of the system to help the target organization.
+
+::: danger
+**Never** talk about the **system's software**! Don't mention words like view, validator, etc.
+:::
+
+### Unified Model Language
+
+The usage of **UML** (Unified Model Language) is recommended to model the domain. **RUP** (Rational Unified Process) already does so.
+
+Each symbol (**lexical**) related (**syntax**) in a diagram has a standard meaning (**semantics**). We avoid **ambiguity** and different people interpret the same from the same diagram, opposed to non standardized arrows and boxes.
+
+#### Structural diagrams
+
+| <ColoredText text="Objects diagram" color="red"/>                           | <ColoredText text="Classes diagram" color="green"/>                                      |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| <ColoredText text="Picture (static) of entities from reality" color="red"/> | <ColoredText text="Picture (static) of classes of entities from reality" color="green"/> |
+| ![Objects diagram](./assets/objectsKlondike.png)                            | ![Classes diagram](./assets/classesKlondike.png)                                         |
+| <ColoredText text="Barely used" color="red"/>                               | <ColoredText text="Extremely used" color="green"/>                                       |
+
+#### Behavioral diagrams
+
+| <ColoredText text="Activity diagram" color="red"/>                                     | <ColoredText text="State diagram" color="green"/>                                                                            |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| <ColoredText text="Video (dynamic) with sequence of highlighted actions" color="red"/> | <ColoredText text="Video (dynamic) with sequence of NOT highlighted actions, highlighting in-between states" color="green"/> |
+| ![Objects diagram](./assets/activityKlondike.png)                                      | ![Classes diagram](./assets/statesKlondike.png)                                                                              |
+| <ColoredText text="Barely used" color="red"/>                                          | <ColoredText text="Extremely used" color="green"/>                                                                           |
+
+| <ColoredText text="Sequence diagram" color="red"/>                                                         | <ColoredText text="Collaboration diagram" color="green"/>                                                        |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| <ColoredText text="Video (dynamic) with sequence of actions between different collaborators" color="red"/> | <ColoredText text="Picture (static) without sequence of actions between different collaborators" color="green"/> |
+| ![Objects diagram](./assets/sequenceKlondike.png)                                                          | ![Classes diagram](./assets/collaborationUniversidad.png)                                                        |
+| <ColoredText text="Barely used" color="red"/>                                                              | <ColoredText text="Extremely used" color="green"/>                                                               |

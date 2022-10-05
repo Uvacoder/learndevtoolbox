@@ -1,7 +1,7 @@
 export default {
 	base: "/developer-cheat-sheet/",
 	title: "Developer Cheat Sheet",
-	description: "A place where you can find valuable knwoledge about softweare architecture",
+	description: "A place where you can find valuable knowledge about software architecture",
 	head: [
 		["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png" }],
 		["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png" }],
