@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./app.13078fa3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"recurrence/complexity/index.md"}'),c={name:"recurrence/complexity/index.md"};function n(a,o,s,i,p,d){return t(),r("div")}const l=e(c,[["render",n]]);export{m as __pageData,l as default};
