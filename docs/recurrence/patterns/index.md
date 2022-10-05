@@ -1,10 +1,14 @@
 <script setup>
-import ColoredText from '../../../src/components/ColoredText.vue'
+import GreenText from '../../../src/components/GreenText.vue'
+import RedText from '../../../src/components/RedText.vue'
+import BlueText from '../../../src/components/BlueText.vue'
 </script>
 
 # Patterns
 
 ## Why?
+
+Why do we care about patterns?
 
 ### Universe
 
@@ -97,9 +101,11 @@ Pattern in science:
 
 For what do we need patterns?
 
-**To be able from the present, study the past and predict/imagine the future.**
+**To be able to, from the present, study the past and predict/imagine the future.**
 
 ## How?
+
+How are patterns? How do we find them in our universe?
 
 ### Pattern types
 
@@ -137,38 +143,38 @@ In art
 
 ## Simple Patterns
 
-| <ColoredText text="Line" color="blue"/> | <ColoredText text="Three points" color="green"/> | <ColoredText text="Circle" color="red"/> |
-| --------------------------------------- | ------------------------------------------------ | ---------------------------------------- |
-| ![Line](./assets/linea.png)             | ![Triangle](./assets/triangulo.png)              | ![Circle](./assets/circulo.png)          |
-| Sequence                                | Alternation                                      | Circularity                              |
+| <BlueText text="Line"/>     | <GreenText text="Three points"/>    | <RedText text="Circle"/>        |
+| --------------------------- | ----------------------------------- | ------------------------------- |
+| ![Line](./assets/linea.png) | ![Triangle](./assets/triangulo.png) | ![Circle](./assets/circulo.png) |
+| Sequence                    | Alternation                         | Circularity                     |
 
 ## Patterns in software
 
 ### Data types
 
-| <ColoredText text="Line" color="blue"/> | <ColoredText text="Three points" color="green"/> | <ColoredText text="Circle" color="red"/>  |
-| --------------------------------------- | ------------------------------------------------ | ----------------------------------------- |
-| Class                                   | Inheritance, composition, union                  | Circular dependencies, circular relations |
+| <BlueText text="Line"/> | <GreenText text="Three points"/> | <RedText text="Circle"/>                  |
+| ----------------------- | -------------------------------- | ----------------------------------------- |
+| Class                   | Inheritance, composition, union  | Circular dependencies, circular relations |
 
 ### Data structures
 
-| <ColoredText text="Line" color="blue"/> | <ColoredText text="Three points" color="green"/> | <ColoredText text="Circle" color="red"/> |
-| --------------------------------------- | ------------------------------------------------ | ---------------------------------------- |
-| List                                    | Tree, Hierarchy                                  | Graph                                    |
+| <BlueText text="Line"/> | <GreenText text="Three points"/> | <RedText text="Circle"/> |
+| ----------------------- | -------------------------------- | ------------------------ |
+| List                    | Tree, Hierarchy                  | Graph                    |
 
 ### Flow control sentences
 
-| <ColoredText text="Line" color="blue"/>            | <ColoredText text="Three points" color="green"/>    | <ColoredText text="Circle" color="red"/>            |
+| <BlueText text="Line"/>                            | <GreenText text="Three points"/>                    | <RedText text="Circle"/>                            |
 | -------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
 | Sequential sentence                                | Alternant sentence                                  | Iterative sentence                                  |
 | <!--@include: ./prettier-ignore/SequenceCode.md--> | <!--@include: ./prettier-ignore/AlternantCode.md--> | <!--@include: ./prettier-ignore/IterativeCode.md--> |
 
 ### Development methodologies
 
-| <ColoredText text="Line" color="blue"/>      | <ColoredText text="Three points" color="green"/>  | <ColoredText text="Circle" color="red"/>     |
-| -------------------------------------------- | ------------------------------------------------- | -------------------------------------------- |
-| <ColoredText text="Waterfall" color="blue"/> | <ColoredText text="Crystal Clear" color="green"/> | <ColoredText text="Iteratives" color="red"/> |
-| ![Waterfall](./assets/waterfall.jpg)         | ![Crystal clear](./assets/crystalClear.jpg)       | ![XP](./assets/xp.png)                       |
+| <BlueText text="Line"/>              | <GreenText text="Three points"/>            | <RedText text="Circle"/>     |
+| ------------------------------------ | ------------------------------------------- | ---------------------------- |
+| <BlueText text="Waterfall"/>         | <GreenText text="Crystal Clear"/>           | <RedText text="Iteratives"/> |
+| ![Waterfall](./assets/waterfall.jpg) | ![Crystal clear](./assets/crystalClear.jpg) | ![XP](./assets/xp.png)       |
 
 ## Domain model
 
@@ -197,22 +203,30 @@ Each symbol (**lexical**) related (**syntax**) in a diagram has a standard meani
 
 #### Structural diagrams
 
-| <ColoredText text="Objects diagram" color="red"/>                           | <ColoredText text="Classes diagram" color="green"/>                                      |
-| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| <ColoredText text="Picture (static) of entities from reality" color="red"/> | <ColoredText text="Picture (static) of classes of entities from reality" color="green"/> |
-| ![Objects diagram](./assets/objectsKlondike.png)                            | ![Classes diagram](./assets/classesKlondike.png)                                         |
-| <ColoredText text="Barely used" color="red"/>                               | <ColoredText text="Extremely used" color="green"/>                                       |
+| <RedText text="Objects diagram"/>                           | <GreenText text="Classes diagram"/>                                      |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------ |
+| <RedText text="Picture (static) of entities from reality"/> | <GreenText text="Picture (static) of classes of entities from reality"/> |
+| ![Objects diagram](./assets/objectsKlondike.png)            | ![Classes diagram](./assets/classesKlondike.png)                         |
+| <RedText text="Barely used"/>                               | <GreenText text="Extremely used"/>                                       |
 
 #### Behavioral diagrams
 
-| <ColoredText text="Activity diagram" color="red"/>                                     | <ColoredText text="State diagram" color="green"/>                                                                            |
-| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| <ColoredText text="Video (dynamic) with sequence of highlighted actions" color="red"/> | <ColoredText text="Video (dynamic) with sequence of NOT highlighted actions, highlighting in-between states" color="green"/> |
-| ![Objects diagram](./assets/activityKlondike.png)                                      | ![Classes diagram](./assets/statesKlondike.png)                                                                              |
-| <ColoredText text="Barely used" color="red"/>                                          | <ColoredText text="Extremely used" color="green"/>                                                                           |
+| <RedText text="Activity diagram"/>                                     | <GreenText text="State diagram"/>                                                                            |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| <RedText text="Video (dynamic) with sequence of highlighted actions"/> | <GreenText text="Video (dynamic) with sequence of NOT highlighted actions, highlighting in-between states"/> |
+| ![Objects diagram](./assets/activityKlondike.png)                      | ![Classes diagram](./assets/statesKlondike.png)                                                              |
+| <RedText text="Barely used"/>                                          | <GreenText text="Extremely used"/>                                                                           |
 
-| <ColoredText text="Sequence diagram" color="red"/>                                                         | <ColoredText text="Collaboration diagram" color="green"/>                                                        |
-| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| <ColoredText text="Video (dynamic) with sequence of actions between different collaborators" color="red"/> | <ColoredText text="Picture (static) without sequence of actions between different collaborators" color="green"/> |
-| ![Objects diagram](./assets/sequenceKlondike.png)                                                          | ![Classes diagram](./assets/collaborationUniversidad.png)                                                        |
-| <ColoredText text="Barely used" color="red"/>                                                              | <ColoredText text="Extremely used" color="green"/>                                                               |
+| <RedText text="Sequence diagram"/>                                                         | <GreenText text="Collaboration diagram"/>                                                        |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| <RedText text="Video (dynamic) with sequence of actions between different collaborators"/> | <GreenText text="Picture (static) without sequence of actions between different collaborators"/> |
+| ![Objects diagram](./assets/sequenceKlondike.png)                                          | ![Classes diagram](./assets/collaborationUniversidad.png)                                        |
+| <RedText text="Barely used"/>                                                              | <GreenText text="Extremely used"/>                                                               |
+
+#### Domain Model conclusions
+
+- **Comprehend the context of a system** with crucial knowledge of use cases.
+- Define a **common vocabulary** for users, clients, developers and others involved.
+  - **Glossary of keywords**.
+  - **Consistent mix of all participants' language**.
+  - **Suggest internal classes** during analysis.
