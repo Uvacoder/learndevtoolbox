@@ -1,6 +1,6 @@
 # Welcome! 🥳
 
-Welcome to the Developer Cheat Sheet! In this site you fill find a bunch of different **concepts**, **ideas**, **definitions** and **examples** related with **software development**.
+Welcome to the Developer Cheat Sheet! In this site you will find a bunch of different **concepts**, **ideas**, **definitions** and **examples** related with **software development**.
 
 The structure of the site is as follows, in the left side you fill find a menu with the **major** topics:
 
