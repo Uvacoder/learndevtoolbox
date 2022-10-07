@@ -1,11 +1,12 @@
-export default {
+import { defineConfig } from "vitepress";
+
+export default defineConfig({
 	base: "/developer-cheat-sheet/",
 	title: "Developer Cheat Sheet",
 	description:
 		"A place where you can find valuable knowledge about software architecture",
-	markdown: {
-		lineNumbers: true
-	},
+	markdown: { lineNumbers: true },
+	lastUpdated: true,
 	head: [
 		[
 			"link",
@@ -41,6 +42,7 @@ export default {
 		// ['meta', { name: "theme-color", content: "#ffffff"}],
 	],
 	themeConfig: {
+		logo: "/assets/test-icons/code-32x32.png",
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Learn", link: "/learn/" },
@@ -120,4 +122,4 @@ export default {
 			]
 		}
 	}
-};
+});
