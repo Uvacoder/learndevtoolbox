@@ -28,7 +28,7 @@ _Coming soon..._
 
 When creating our repositories we may want to fetch our resources filtering by some of their attributes. Thats why is easy to come out with code that resembles this:
 
-<<< @/patterns/patterns/criteria/snippets/ProblemRepositoryExample.ts
+<<< @/glossary/patterns/criteria/snippets/ProblemRepositoryExample.ts
 
 ```
 .
