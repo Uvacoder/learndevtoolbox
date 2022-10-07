@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-	base: "/developer-cheat-sheet/",
-	title: "Developer Cheat Sheet",
+	base: "/developer-toolbox/",
+	title: "Developer Toolbox",
 	description:
 		"A place where you can find valuable knowledge about software architecture",
 	markdown: { lineNumbers: true },
@@ -42,15 +42,17 @@ export default defineConfig({
 		// ['meta', { name: "theme-color", content: "#ffffff"}],
 	],
 	themeConfig: {
-		logo: "/assets/test-icons/code-32x32.png",
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Learn", link: "/learn/" },
-			{ text: "Glossary", link: "/glossary/" },
+			{ text: "Archive", link: "/archive/" },
 			{ text: "About", link: "/about/" }
 		],
 		socialLinks: [
-			{ icon: "github", link: "https://github.com/colasin16" },
+			{
+				icon: "github",
+				link: "https://github.com/colasin16/developer-toolbox"
+			},
 			{ icon: "linkedin", link: "https://es.linkedin.com/in/jordicolas" }
 		],
 		sidebar: {
@@ -95,14 +97,14 @@ export default defineConfig({
 					items: [{ text: "Introduction", link: "/learn/agile/" }]
 				}
 			],
-			"/glossary/": [
+			"/archive/": [
 				{
 					text: "Code smells",
 					collapsible: true,
 					items: [
 						{
 							text: "Primitive obsession",
-							link: "/glossary/code-smells/primitive-obsession/"
+							link: "/archive/code-smells/primitive-obsession/"
 						}
 					]
 				},
@@ -110,8 +112,8 @@ export default defineConfig({
 					text: "Patterns",
 					collapsible: true,
 					items: [
-						{ text: "Criteria", link: "/glossary/patterns/criteria/" },
-						{ text: "Visitor", link: "/glossary/patterns/visitor/" }
+						{ text: "Criteria", link: "/archive/patterns/criteria/" },
+						{ text: "Visitor", link: "/archive/patterns/visitor/" }
 					]
 				},
 				{

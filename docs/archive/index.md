@@ -1,4 +1,4 @@
-# Glossary 🗂
+# Archive 🗂
 
 What are you looking for?
 
