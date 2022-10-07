@@ -42,6 +42,7 @@ export default defineConfig({
 		// ['meta', { name: "theme-color", content: "#ffffff"}],
 	],
 	themeConfig: {
+		outline: [2, 3],
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Learn", link: "/learn/" },
@@ -98,6 +99,20 @@ export default defineConfig({
 				}
 			],
 			"/archive/": [
+				{
+					text: "Concept definitions",
+					collapsible: true,
+					items: [
+						{
+							text: "Abstraction",
+							link: "/archive/concepts-definitions/abstraction/"
+						},
+						{
+							text: "Encapsulation",
+							link: "/archive/concepts-definitions/encapsulation/"
+						}
+					]
+				},
 				{
 					text: "Code smells",
 					collapsible: true,
