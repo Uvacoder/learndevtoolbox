@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t}from"./app.2dd6818f.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"recurrence/software/index.md"}'),a={name:"recurrence/software/index.md"};function n(c,o,s,d,i,p){return r(),t("div")}const m=e(a,[["render",n]]);export{f as __pageData,m as default};
