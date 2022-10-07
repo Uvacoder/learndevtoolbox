@@ -15,6 +15,12 @@
 		  "options": {
 			"printWidth": 0
 		  }
+		},		
+		{
+		  "files": ["**/*.js", "**/*.ts"],
+		  "options": {
+			"printWidth": 80
+		  }
 		}		
 	  ]
   }

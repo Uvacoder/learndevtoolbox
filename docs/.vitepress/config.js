@@ -1,11 +1,38 @@
 export default {
 	base: "/developer-cheat-sheet/",
 	title: "Developer Cheat Sheet",
-	description: "A place where you can find valuable knowledge about software architecture",
+	description:
+		"A place where you can find valuable knowledge about software architecture",
+	markdown: {
+		lineNumbers: true
+	},
 	head: [
-		["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png" }],
-		["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png" }],
-		["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png" }],
+		[
+			"link",
+			{
+				rel: "apple-touch-icon",
+				sizes: "180x180",
+				href: "/assets/favicons/apple-touch-icon.png"
+			}
+		],
+		[
+			"link",
+			{
+				rel: "icon",
+				type: "image/png",
+				sizes: "32x32",
+				href: "/assets/favicons/favicon-32x32.png"
+			}
+		],
+		[
+			"link",
+			{
+				rel: "icon",
+				type: "image/png",
+				sizes: "16x16",
+				href: "/assets/favicons/favicon-16x16.png"
+			}
+		],
 		["link", { rel: "manifest", href: "/assets/favicons/site.webmanifest" }],
 		// ['link', { rel: "mask-icon", href: "/assets/favicons/safari-pinned-tab.svg", color: "#3a0839"}],
 		["link", { rel: "shortcut icon", href: "/assets/favicons/favicon.ico" }]
@@ -18,7 +45,10 @@ export default {
 			{ text: "Home", link: "/" },
 			{ text: "About", link: "/about/" }
 		],
-		socialLinks: [{ icon: "github", link: "https://github.com/colasin16" }],
+		socialLinks: [
+			{ icon: "github", link: "https://github.com/colasin16" },
+			{ icon: "linkedin", link: "https://es.linkedin.com/in/jordicolas" }
+		],
 		sidebar: [
 			{
 				text: "Recurrence",
@@ -42,7 +72,10 @@ export default {
 			{
 				text: "Patterns",
 				collapsible: true,
-				items: [{ text: "Intro", link: "/patterns/" }]
+				items: [
+					{ text: "Code smells", link: "/patterns/code-smells/" },
+					{ text: "Patterns cheat sheet", link: "/patterns/patterns/" }
+				]
 			},
 			{
 				text: "Software Architecture",

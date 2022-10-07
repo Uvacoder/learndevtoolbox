@@ -6,9 +6,9 @@ import BlueText from '../../../src/components/BlueText.vue'
 
 # Patterns
 
-## Why?
+## Why? 🤔
 
-Why do we care about patterns?
+Why do we care about patterns and why do we want to study them?
 
 ### Universe
 
@@ -18,7 +18,7 @@ In the space and time there is matter and energy.
 
 ### Senses
 
-Where existing living beings have the ability to perceive **external and internal physical stimulations** through certain **organs** that are passed to our **nervous system**:
+Inside that Universe there are living beings that have the ability to perceive **external and internal physical stimulations** through certain **organs** which are passed to our **nervous system**:
 
 - **sight**
 - **hearing**
@@ -70,7 +70,7 @@ _Relations_
 | next( next( next(0)))... | XII          | 12      | 1100   |
 | ...                      | ...          | ...     | ...    |
 
-## What?
+## What? 🤓
 
 What is a pattern?
 
@@ -86,24 +86,24 @@ Pattern in science:
 
 ### Equality
 
-| Body/Entity                       | Identity                                                                    |
-| --------------------------------- | --------------------------------------------------------------------------- |
-| What it is, exists or can exist   | Set of characteristics that differentiates something or someone from others |
-| What makes something's essence be | Conscience that someone or a group has to be their own and not other        |
+| Body/Entity                       | Identity                                                                               |
+| --------------------------------- | -------------------------------------------------------------------------------------- |
+| What it is, exists or can exist   | Set of characteristics that differentiates something or someone from others            |
+| What makes something's essence be | Conscience that someone or a group have and that makes them be their own and not other |
 
-| Equal                                                                               | Context                                                                       |
-| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| That has the same characteristics of another person or thing in some or all aspects | Precision: necessary to provide the grade of precision when comparing quality |
-| Of the same class or condition                                                      | Identifier: people's names or nicknames, concepts, my first child...          |
-| Of the same value or preciousness                                                   |                                                                               |
+| Equal                                                                               | Context                                                                        |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| That has the same characteristics of another person or thing in some or all aspects | Precision: necessary to provide the grade of precision when comparing equality |
+| Of the same class or condition                                                      | Identifier: people's names or nicknames, concepts, my first child...           |
+| Of the same value or preciousness                                                   |                                                                                |
 
-## For what?
+## For what? 😲
 
 For what do we need patterns?
 
 **To be able to, from the present, study the past and predict/imagine the future.**
 
-## How?
+## How? 🧐
 
 How are patterns? How do we find them in our universe?
 
@@ -132,35 +132,46 @@ _Caracola_
 _Brocoli_
 
 In our daily life
-::: v-pre
-`<Insert image here>`
-:::
+
+![Family tree](./assets/familyTree.png)
+_Family tree_
 
 In art
-::: v-pre
-`<Insert image here>`
-:::
+
+![Big wave](./assets/granOla.jpg)
+_Katsushika Hokusai_
 
 ## Simple Patterns
 
-| <BlueText text="Line"/>     | <GreenText text="Three points"/>    | <RedText text="Circle"/>        |
-| --------------------------- | ----------------------------------- | ------------------------------- |
-| ![Line](./assets/linea.png) | ![Triangle](./assets/triangulo.png) | ![Circle](./assets/circulo.png) |
-| Sequence                    | Alternation                         | Circularity                     |
+| <BlueText text="Line"/>                             | <GreenText text="Three points"/>    | <RedText text="Circle"/>                  |
+| --------------------------------------------------- | ----------------------------------- | ----------------------------------------- |
+| ![Line](./assets/linea.png)                         | ![Triangle](./assets/triangulo.png) | ![Circle](./assets/circulo.png)           |
+| Sequence                                            | Alternation                         | Circularity                               |
+| Line of time                                        | Water molecule, mountains           | Cells, soap bubbles                       |
+| Metro line                                          | Pyramids                            | Hurricanes                                |
+| natural or artificial frontier, line of products... | Social organizations, economy...    | Roundabouts, vicious and virtuous circles |
 
-## Patterns in software
+## Patterns in software 🖥
+
+### Graphical User Interface
+
+| <BlueText text="Line"/>                                               | <GreenText text="Three points"/>                                      | <RedText text="Circle"/>                                                 |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Form                                                                  | Window with panels                                                    | Navigation map                                                           |
+| [![Sequence](./assets/formSequence.jpeg)](./assets/formSequence.jpeg) | [![Tree](./assets/hierarchyWindow.png)](./assets/hierarchyWindow.png) | [![Graph](./assets/ciclesNavigation.jpg)](./assets/ciclesNavigation.jpg) |
 
 ### Data types
 
-| <BlueText text="Line"/> | <GreenText text="Three points"/> | <RedText text="Circle"/>                  |
-| ----------------------- | -------------------------------- | ----------------------------------------- |
-| Class                   | Inheritance, composition, union  | Circular dependencies, circular relations |
+| <BlueText text="Line"/>               | <GreenText text="Three points"/>                | <RedText text="Circle"/>                     |
+| ------------------------------------- | ----------------------------------------------- | -------------------------------------------- |
+| Class, structure, registry, entity... | Inheritance, composition, union, aggregation... | Circular dependencies, circular relations... |
 
 ### Data structures
 
-| <BlueText text="Line"/> | <GreenText text="Three points"/> | <RedText text="Circle"/> |
-| ----------------------- | -------------------------------- | ------------------------ |
-| List                    | Tree, Hierarchy                  | Graph                    |
+| <BlueText text="Line"/>            | <GreenText text="Three points"/> | <RedText text="Circle"/>     |
+| ---------------------------------- | -------------------------------- | ---------------------------- |
+| List                               | Tree, Hierarchy                  | Graph                        |
+| ![Sequence](./assets/sequence.png) | ![Tree](./assets/hierarchy.png)  | ![Graph](./assets/graph.png) |
 
 ### Flow control sentences
 
@@ -176,7 +187,7 @@ In art
 | <BlueText text="Waterfall"/>         | <GreenText text="Crystal Clear"/>           | <RedText text="Iteratives"/> |
 | ![Waterfall](./assets/waterfall.jpg) | ![Crystal clear](./assets/crystalClear.jpg) | ![XP](./assets/xp.png)       |
 
-## Domain model
+## Domain model 👌🏼
 
 The **domain model** describes the **most important concepts (types of objects)** of a context, things like objects from the domain and the relations between them.
 
@@ -225,7 +236,7 @@ Each symbol (**lexical**) related (**syntax**) in a diagram has a standard meani
 
 #### Domain Model conclusions
 
-- **Comprehend the context of a system** with crucial knowledge of use cases.
+- **Comprehend the context of a system** with crucial knowledge about use cases.
 - Define a **common vocabulary** for users, clients, developers and others involved.
   - **Glossary of keywords**.
   - **Consistent mix of all participants' language**.
