@@ -4,8 +4,6 @@
 
 Why do we want to study and understand knowledge?
 
-<<< @/snippets/second-test.ts
-
 Because we can only observe the world from our perspective, our shoes. Knowledge is what allowed our ancestors to survive and eat the things that would not kill us.
 
 **Maslow pyramid**

@@ -1,10 +1,10 @@
-## Visitor
+# Visitor
 
-### Intent
+## Intent
 
 Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
 
-### Problem 😢
+## Problem 😢
 
 Imagine that your team develops an app which works with geographic information structured as one colossal graph. Each node of the graph may represent a complex entity such as a city, but also more granular things like industries, sightseeing areas, etc. The nodes are connected with others if there’s a road between the real objects that they represent. Under the hood, each node type is represented by its own class, while each specific node is an object.
 
@@ -22,7 +22,7 @@ Besides, he questioned whether it makes sense to have the XML export code within
 
 There was another reason for the refusal. It was highly likely that after this feature was implemented, someone from the marketing department would ask you to provide the ability to export into a different format, or request some other weird stuff. This would force you to change those precious and fragile classes again.
 
-### Solution 😋
+## Solution 😋
 
 The Visitor pattern suggests that you place the new behavior into a separate class called visitor, instead of trying to integrate it into existing classes. The original object that had to perform the behavior is now passed to one of the visitor’s methods as an argument, providing the method access to all necessary data contained within the object.
 
@@ -65,7 +65,7 @@ I confess. We had to change the node classes after all. But at least the change 
 
 Now, if we extract a common interface for all visitors, all existing nodes can work with any visitor you introduce into the app. If you find yourself introducing a new behavior related to nodes, all you have to do is implement a new visitor class.
 
-### Real-World Analogy 🌍
+## Real-World Analogy 🌍
 
 Insurance agent
 A good insurance agent is always ready to offer different policies to various types of organizations.
@@ -76,7 +76,7 @@ If it’s a residential building, he sells medical insurance.
 If it’s a bank, he sells theft insurance.
 If it’s a coffee shop, he sells fire and flood insurance.
 
-### Structure
+## Structure
 
 Structure of the Visitor design pattern
 The Visitor interface declares a set of visiting methods that can take concrete elements of an object structure as arguments. These methods may have the same names if the program is written in a language that supports overloading, but the type of their parameters must be different.
@@ -89,7 +89,7 @@ Each Concrete Element must implement the acceptance method. The purpose of this 
 
 The Client usually represents a collection or some other complex object (for example, a Composite tree). Usually, clients aren’t aware of all the concrete element classes because they work with objects from that collection via some abstract interface.
 
-### Pseudocode
+## Pseudocode
 
 In this example, the Visitor pattern adds XML export support to the class hierarchy of geometric shapes.
 
@@ -179,7 +179,7 @@ field allShapes: array of Shapes
 
 If you wonder why we need the accept method in this example, my article Visitor and Double Dispatch addresses this question in detail.
 
-### Applicability
+## Applicability
 
 Use the Visitor when you need to perform an operation on all elements of a complex object structure (for example, an object tree).
 
@@ -193,7 +193,7 @@ Use the pattern when a behavior makes sense only in some classes of a class hier
 
 You can extract this behavior into a separate visitor class and implement only those visiting methods that accept objects of relevant classes, leaving the rest empty.
 
-### How to Implement
+## How to Implement
 
 Declare the visitor interface with a set of “visiting” methods, one per each concrete element class that exists in the program.
 
@@ -209,7 +209,7 @@ You might encounter a situation where the visitor will need access to some priva
 
 The client must create visitor objects and pass them into elements via “acceptance” methods.
 
-### Pros and Cons
+## Pros and Cons
 
 - Open/Closed Principle. You can introduce a new behavior that can work with objects of different classes without changing these classes.
 - Single Responsibility Principle. You can move multiple versions of the same behavior into the same class.
@@ -217,7 +217,7 @@ The client must create visitor objects and pass them into elements via “accept
 - You need to update all visitors each time a class gets added to or removed from the element hierarchy.
 - Visitors might lack the necessary access to the private fields and methods of the elements that they’re supposed to work with.
 
-### Relations with Other Patterns
+## Relations with Other Patterns
 
 You can treat Visitor as a powerful version of the Command pattern. Its objects can execute operations over various objects of different classes.
 

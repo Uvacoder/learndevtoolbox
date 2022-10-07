@@ -1,7 +1,7 @@
 <script setup>
-import GreenText from '../../../src/components/GreenText.vue'
-import RedText from '../../../src/components/RedText.vue'
-import BlueText from '../../../src/components/BlueText.vue'
+import GreenText from '../../../../src/components/GreenText.vue'
+import RedText from '../../../../src/components/RedText.vue'
+import BlueText from '../../../../src/components/BlueText.vue'
 </script>
 
 # Patterns

@@ -2,29 +2,29 @@
 import FileImporter from '../../../../src/components/FileImporter.vue'
 </script> -->
 
-## Criteria
+# Criteria
 
-### Intent
-
-_Coming soon..._
-
-### Problem 😢
+## Intent
 
 _Coming soon..._
 
-### Solution 😋
+## Problem 😢
 
 _Coming soon..._
 
-### Real-World Analogy 🌍
+## Solution 😋
 
 _Coming soon..._
 
-### Structure
+## Real-World Analogy 🌍
 
 _Coming soon..._
 
-### Code example
+## Structure
+
+_Coming soon..._
+
+## Code example
 
 When creating our repositories we may want to fetch our resources filtering by some of their attributes. Thats why is easy to come out with code that resembles this:
 
@@ -47,18 +47,18 @@ When creating our repositories we may want to fetch our resources filtering by s
 
 <!-- <FileImporter path="/snippets/ProblemRepositoryExample" fileExtension="ts"/> -->
 
-### Applicability
+## Applicability
 
 _Coming soon..._
 
-### How to Implement
+## How to Implement
 
 _Coming soon..._
 
-### Pros and Cons
+## Pros and Cons
 
 _Coming soon..._
 
-### Relations with Other Patterns
+## Relations with Other Patterns
 
 _Coming soon..._

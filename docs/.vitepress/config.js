@@ -43,55 +43,81 @@ export default {
 	themeConfig: {
 		nav: [
 			{ text: "Home", link: "/" },
+			{ text: "Learn", link: "/learn/" },
+			{ text: "Glossary", link: "/glossary/" },
 			{ text: "About", link: "/about/" }
 		],
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/colasin16" },
 			{ icon: "linkedin", link: "https://es.linkedin.com/in/jordicolas" }
 		],
-		sidebar: [
-			{
-				text: "Recurrence",
-				collapsible: true,
-				items: [
-					{ text: "Intro", link: "/recurrence/" },
-					{ text: "Patterns", link: "/recurrence/patterns/" },
-					{ text: "Knowledge", link: "/recurrence/knowledge/" }
-				]
-			},
-			{
-				text: "Programing - OOP",
-				collapsible: true,
-				items: [{ text: "Intro", link: "/oop/" }]
-			},
-			{
-				text: "Object Oriented Design",
-				collapsible: true,
-				items: [{ text: "Intro", link: "/ood/" }]
-			},
-			{
-				text: "Patterns",
-				collapsible: true,
-				items: [
-					{ text: "Code smells", link: "/patterns/code-smells/" },
-					{ text: "Patterns cheat sheet", link: "/patterns/patterns/" }
-				]
-			},
-			{
-				text: "Software Architecture",
-				collapsible: true,
-				items: [{ text: "Intro", link: "/software-architecture/" }]
-			},
-			{
-				text: "Unified Process",
-				collapsible: true,
-				items: [{ text: "Intro", link: "/unified-process/" }]
-			},
-			{
-				text: "Agile",
-				collapsible: true,
-				items: [{ text: "Intro", link: "/agile/" }]
-			}
-		]
+		sidebar: {
+			"/learn/": [
+				{
+					text: "Recurrence",
+					collapsible: true,
+					items: [
+						{ text: "Introduction", link: "/learn/recurrence/" },
+						{ text: "Patterns", link: "/learn/recurrence/patterns/" },
+						{ text: "Knowledge", link: "/learn/recurrence/knowledge/" }
+					]
+				},
+				{
+					text: "Programing - OOP",
+					collapsible: true,
+					items: [{ text: "Introduction", link: "/learn/oop/" }]
+				},
+				{
+					text: "Object Oriented Design",
+					collapsible: true,
+					items: [{ text: "Introduction", link: "/learn/ood/" }]
+				},
+				{
+					text: "Patterns",
+					collapsible: true,
+					items: [{ text: "Introduction", link: "/learn/patterns/" }]
+				},
+				{
+					text: "Software Architecture",
+					collapsible: true,
+					items: [{ text: "Introduction", link: "/learn/software-architecture/" }]
+				},
+				{
+					text: "Unified Process",
+					collapsible: true,
+					items: [{ text: "Introduction", link: "/learn/unified-process/" }]
+				},
+				{
+					text: "Agile",
+					collapsible: true,
+					items: [{ text: "Introduction", link: "/learn/agile/" }]
+				}
+			],
+			"/glossary/": [
+				{
+					text: "Code smells",
+					collapsible: true,
+					items: [
+						{
+							text: "Primitive obsession",
+							link: "/glossary/code-smells/primitive-obsession/"
+						}
+					]
+				},
+				{
+					text: "Patterns",
+					collapsible: true,
+					items: [
+						{ text: "Criteria", link: "/glossary/patterns/criteria/" },
+						{ text: "Visitor", link: "/glossary/patterns/visitor/" }
+					]
+				},
+				{
+					text: "Refactoring",
+					collapsible: true,
+					items: []
+				}
+			]
+		}
 	}
 };
