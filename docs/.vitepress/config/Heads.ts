@@ -27,7 +27,6 @@ export const heads: HeadConfig[] = [
 			href: "/assets/favicons/favicon-16x16.png"
 		}
 	],
-	["link", { rel: "manifest", href: "/assets/favicons/manifest.webmanifest" }],
 	// ['link', { rel: "mask-icon", href: "/assets/favicons/safari-pinned-tab.svg", color: "#3a0839"}],
 	["link", { rel: "shortcut icon", href: "/assets/favicons/favicon.ico" }]
 	// ['meta', { name: "msapplication-TileColor", content: "#3a0839"}],
