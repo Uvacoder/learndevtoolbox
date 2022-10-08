@@ -3,7 +3,7 @@ import { PwaOptions } from "@vite-pwa/vitepress";
 export const pwa: PwaOptions = {
 	outDir: ".vitepress/dist",
 	base: "/developer-toolbox/",
-	scope: "developer-toolbox",
+	scope: "/developer-toolbox/",
 	registerType: "autoUpdate",
 	includeManifestIcons: false,
 	manifest: {
