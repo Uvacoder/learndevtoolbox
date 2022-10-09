@@ -8,7 +8,7 @@ Because we can only observe the world from our perspective, our shoes. Knowledge
 
 **Maslow pyramid**
 
-![Maslow pyramid](./assets/maslowPyramid.jpeg)
+![Maslow pyramid](/recurrence/knowledge/maslowPyramid.jpeg)
 
 ::: tip
 Nowadays in order to survive we need a job and thus (as software engineers) **knowledge of our craft** is what will allow us to cover our physiological needs and **survive**.
@@ -30,4 +30,46 @@ Nowadays in order to survive we need a job and thus (as software engineers) **kn
 
 ## For what? 😲
 
+To obtain **effective** and **efficient solutions** from **complex systems** in any **productive sector**.
+
+In order to exploit all resources in the universe we need to study, investigate, analyze, synthesize and know them.
+
 ## How? 🧐
+
+### Sets
+
+| Definition                                                                                     | Concrete                                    |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| A set is an **unordered collection** of **not repeated elements**, **associated by a pattern** | ![set](./assets/set.png)                    |
+| A **recursive set** is one **whose elements can also be other sets**.                          | ![Recursive set](./assets/recursiveSet.png) |
+
+#### Objects and Classes
+
+| Objects                                                                                                                                                                                                                                                                      | Classes                                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| An **object** is a set of elements which are other **objects** which at the same time... **recursively**!                                                                                                                                                                    | A **class** is a set whose elements are the **common characteristics of another set of similar objects**                                                                                                                                                                                                                                                                                  |
+| _That peach! The peach I ate; the third peach in the basket, a bit red, that one!_                                                                                                                                                                                           | _Prunus persica, the peach is a deciduous tree first domesticated and cultivated in Zhejiang province of Eastern China..._                                                                                                                                                                                                                                                                |
+| @>→---                                                                                                                                                                                                                                                                       | _An emoticon short for "emotion icon", also known simply as an emote, is a pictorial representation of a facial expression using characters—usually punctuation marks, numbers, and letters—to express a person's feelings, mood or reaction, or as a time-saving method_                                                                                                                 |
+| A real or virtual being with concrete values in its characteristics                                                                                                                                                                                                          | _A book, a desription, a definition of its common characteristics, without concrete_ values                                                                                                                                                                                                                                                                                               |
+| ![you](./assets/you.png)                                                                                                                                                                                                                                                     | ![woman](./assets/woman.png)                                                                                                                                                                                                                                                                                                                                                              |
+| **Focus** on a **set of objects** that **collaborate a lot**, with **high cohesion** and **low coupling**, regardless of their similarity.<br><br>_A human body is a set of head, trunk, four extremities --> no similarity_<br><br>_A swarm is a group of bees --> similar_ | **Focus** on a **set of common characteristics of a set of objects that are similar**, regardless of whether they **collaborate a lot or not**.<br><br>_The Human, they collaborate between them to the point they are kings of the world even though there are other superior species in strength, speed..._<br><br>_The service of gas stations, which do not collaborate between them_ |
+| ![set](./assets/set.png)                                                                                                                                                                                                                                                     | ![Recursive set](./assets/recursiveSet.png)                                                                                                                                                                                                                                                                                                                                               |
+| ![Set class](./assets/setClass.png)                                                                                                                                                                                                                                          | ![Abstract recursive set](./assets/abstractRecursiveSet.png)                                                                                                                                                                                                                                                                                                                              |
+
+#### Abstract classes
+
+An abstract class is the intersection set of common characteristics from a set of similar classes.
+
+- Living being
+  - Plants
+  - Fungi
+  - Animals
+    - Invertebrates
+    - Vertebrates
+      - Fishes
+      - Mammals
+        - Canines
+        - Felines
+        - Primates
+          - Monkeys
+          - Humans

@@ -14,7 +14,7 @@ Why do we care about patterns and why do we want to study them?
 
 In the space and time there is matter and energy.
 
-[Universe](./assets/universo.svg): _Diagram of the universe objects and classes_
+[Universe](/recurrence/patterns/universo.svg): _Diagram of the universe objects and classes_
 
 ### Senses
 
@@ -28,7 +28,7 @@ Inside that Universe there are living beings that have the ability to perceive *
 
 **Physical signals** that can **vary in their frequency, width**, ... and transform in **different color values** decomposed into combinations of red, green and blue or **different values of words** decomposed into phonemes, a, ae, e, i, o , u, ... depending on the language.
 
-![Light spectrum](./assets/light.jpeg)
+![Light spectrum](/recurrence/patterns/light.jpeg)
 _Light spectrum_
 
 ### Measurement units
@@ -78,11 +78,11 @@ What is a pattern?
 
 Pattern for an artisan and in industry:
 
-![Cloth pattern](./assets/clothPattern.jpg)
+![Cloth pattern](/recurrence/patterns/clothPattern.jpg)
 
 Pattern in science:
 
-![Parabolic throw](./assets/parabolicThrow.jpg)
+![Parabolic throw](/recurrence/patterns/parabolicThrow.jpg)
 
 ### Equality
 
