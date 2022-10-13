@@ -1,5 +1,23 @@
 # Archive 🗂
 
-What are you looking for?
+The archive is a place where you can find a list of different **code smells**, **patterns**, **refactoring techniques** and **definitions**.
 
-Use the side bar to find what you need in this big cheat sheet and overcome all your coding challenges! 🤟🏼
+Usually you fill find **code examples** along the way to help you understand everything.
+
+So, what are you looking for?
+
+### Concept definitions
+
+- [Abstraction](./concepts-definitions/abstraction/)
+- [Encapsulation](./concepts-definitions/encapsulation/)
+- [Domain model](./concepts-definitions/domain-model/)
+
+### Code smells
+
+- [Primitive obsession](./code-smells/primitive-obsession/)
+
+### Patterns
+
+- [Criteria](./patterns/criteria/)
+
+### Refactoring

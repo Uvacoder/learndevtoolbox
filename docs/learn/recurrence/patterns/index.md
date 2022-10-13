@@ -20,11 +20,11 @@ In the space and time there is matter and energy.
 
 Inside that Universe there are living beings that have the ability to perceive **external and internal physical stimulations** through certain **organs** which are passed to our **nervous system**:
 
-- **sight**
-- **hearing**
-- smell
-- taste
-- touch
+- **Sight**
+- **Hearing**
+- Smell
+- Taste
+- Touch
 
 **Physical signals** that can **vary in their frequency, width**, ... and transform in **different color values** decomposed into combinations of red, green and blue or **different values of words** decomposed into phonemes, a, ae, e, i, o , u, ... depending on the language.
 
@@ -38,7 +38,7 @@ _Basic units_
 | Physics                       | Other areas                                |
 | ----------------------------- | ------------------------------------------ |
 | **International Unit System** | **Economic system, Educational System...** |
-| Time: second                  | Music: Pulse                               |
+| Time: second                  | Music: pulse                               |
 | Length: meter                 | Education: subject                         |
 | Mass: kilogram                | Money euro, dollar                         |
 
@@ -47,7 +47,7 @@ _Derived units_
 | Physics                            | Other areas                                |
 | ---------------------------------- | ------------------------------------------ |
 | **International Unit System**      | **Economic system, Educational System...** |
-| Force: newton (mass\*length/time2) | Music: Compass                             |
+| Force: newton (mass\*length/time2) | Music: compass                             |
 | ...                                | Maths: complex number, vector...           |
 
 _Names_
@@ -55,7 +55,7 @@ _Names_
 | Physics                       | Other areas                                |
 | ----------------------------- | ------------------------------------------ |
 | **International Unit System** | **Economic system, Educational System...** |
-| Multiples: kilometer          | Music: Salsa, trap...                      |
+| Multiples: kilometer          | Music: salsa, trap...                      |
 | Time: year, month, week       | Education: graduated                       |
 | Distance: light year          | Computer science: kilobyte, petabyte...    |
 
@@ -125,10 +125,10 @@ It repeats in itself. You can amplify or reduce its point of view and it will re
 
 We can find examples of recursion in nature
 
-![Caracola](./assets/caracola.jpg)
+![Caracola](/recurrence/patterns/caracola.jpg)
 _Caracola_
 
-![Brocoli](./assets/brecoli.jfif)
+![Brocoli](/recurrence/patterns/brecoli.jfif)
 _Brocoli_
 
 In our daily life
@@ -138,7 +138,7 @@ _Family tree_
 
 In art
 
-![Big wave](./assets/granOla.jpg)
+![Big wave](/recurrence/patterns/granOla.jpg)
 _Katsushika Hokusai_
 
 ## Simple Patterns
@@ -155,10 +155,10 @@ _Katsushika Hokusai_
 
 ### Graphical User Interface
 
-| <BlueText text="Line"/>                                               | <GreenText text="Three points"/>                                      | <RedText text="Circle"/>                                                 |
-| --------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Form                                                                  | Window with panels                                                    | Navigation map                                                           |
-| [![Sequence](./assets/formSequence.jpeg)](./assets/formSequence.jpeg) | [![Tree](./assets/hierarchyWindow.png)](./assets/hierarchyWindow.png) | [![Graph](./assets/ciclesNavigation.jpg)](./assets/ciclesNavigation.jpg) |
+| <BlueText text="Line"/>                                                                       | <GreenText text="Three points"/>                                      | <RedText text="Circle"/>                                                                         |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Form                                                                                          | Window with panels                                                    | Navigation map                                                                                   |
+| [![Sequence](/recurrence/patterns/formSequence.jpeg)](/recurrence/patterns/formSequence.jpeg) | [![Tree](./assets/hierarchyWindow.png)](./assets/hierarchyWindow.png) | [![Graph](/recurrence/patterns/ciclesNavigation.jpg)](/recurrence/patterns/ciclesNavigation.jpg) |
 
 ### Data types
 
@@ -182,10 +182,10 @@ _Katsushika Hokusai_
 
 ### Development methodologies
 
-| <BlueText text="Line"/>              | <GreenText text="Three points"/>            | <RedText text="Circle"/>     |
-| ------------------------------------ | ------------------------------------------- | ---------------------------- |
-| <BlueText text="Waterfall"/>         | <GreenText text="Crystal Clear"/>           | <RedText text="Iteratives"/> |
-| ![Waterfall](./assets/waterfall.jpg) | ![Crystal clear](./assets/crystalClear.jpg) | ![XP](./assets/xp.png)       |
+| <BlueText text="Line"/>                          | <GreenText text="Three points"/>                        | <RedText text="Circle"/>     |
+| ------------------------------------------------ | ------------------------------------------------------- | ---------------------------- |
+| <BlueText text="Waterfall"/>                     | <GreenText text="Crystal Clear"/>                       | <RedText text="Iteratives"/> |
+| ![Waterfall](/recurrence/patterns/waterfall.jpg) | ![Crystal clear](/recurrence/patterns/crystalClear.jpg) | ![XP](./assets/xp.png)       |
 
 ## Domain model 👌🏼
 

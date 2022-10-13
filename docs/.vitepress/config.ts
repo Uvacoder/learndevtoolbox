@@ -1,3 +1,4 @@
+// @ts-ignore
 import { defineConfig } from "vitepress";
 import { withPwa } from "@vite-pwa/vitepress";
 import { learn } from "./config/sidebars/Learn";
