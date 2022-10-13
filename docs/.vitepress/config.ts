@@ -1,5 +1,4 @@
-// @ts-ignore
-import { defineConfig } from "vitepress";
+import { defineConfig } from "vitepress/dist/node";
 import { withPwa } from "@vite-pwa/vitepress";
 import { learn } from "./config/sidebars/Learn";
 import { archive } from "./config/sidebars/Archive";
@@ -35,6 +34,7 @@ export default withPwa(
 				"/archive/": archive
 			}
 		},
+		// @ts-ignore
 		pwa: pwa
 	})
 );

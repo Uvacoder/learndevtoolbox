@@ -1,4 +1,4 @@
-import { DefaultTheme } from "vitepress";
+import { DefaultTheme } from "vitepress/types";
 
 export const archive: DefaultTheme.SidebarGroup[] = [
 	{
