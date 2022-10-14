@@ -10,7 +10,7 @@ export const learn: DefaultTheme.SidebarGroup[] = [
 			{ text: "Patterns", link: "/learn/recurrence/patterns/" },
 			{ text: "Knowledge", link: "/learn/recurrence/knowledge/" }
 		]
-	}
+	},
 	{
 		text: "Programing - OOP",
 		collapsible: true,
