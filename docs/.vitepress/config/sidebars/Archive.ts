@@ -4,6 +4,7 @@ export const archive: DefaultTheme.SidebarGroup[] = [
 	{
 		text: "Concept definitions",
 		collapsible: true,
+		collapsed: true,
 		items: [
 			{
 				text: "Abstraction",
@@ -22,6 +23,7 @@ export const archive: DefaultTheme.SidebarGroup[] = [
 	{
 		text: "Code smells",
 		collapsible: true,
+		collapsed: true,
 		items: [
 			{
 				text: "Primitive obsession",
@@ -32,14 +34,13 @@ export const archive: DefaultTheme.SidebarGroup[] = [
 	{
 		text: "Patterns",
 		collapsible: true,
-		items: [
-			{ text: "Criteria", link: "/archive/patterns/criteria/" },
-			{ text: "Visitor", link: "/archive/patterns/visitor/" }
-		]
+		collapsed: true,
+		items: [{ text: "Criteria", link: "/archive/patterns/criteria/" }]
 	},
 	{
 		text: "Refactoring",
 		collapsible: true,
+		collapsed: true,
 		items: []
 	}
 ];
