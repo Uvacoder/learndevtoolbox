@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as i}from"./app.d99cad5f.js";const m=JSON.parse('{"title":"Learn \u{1F913}","description":"","frontmatter":{},"headers":[],"relativePath":"learn/index.md","lastUpdated":1665766424000}'),r={name:"learn/index.md"},l=i("",5),o=[l];function n(s,d,c,p,h,_){return t(),a("div",null,o)}const u=e(r,[["render",n]]);export{m as __pageData,u as default};
