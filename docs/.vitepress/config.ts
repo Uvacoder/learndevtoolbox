@@ -1,4 +1,5 @@
-import { defineConfig } from "vitepress/dist/node";
+// @ts-ignore
+import { defineConfig } from "vitepress";
 import { withPwa } from "@vite-pwa/vitepress";
 import { learn } from "./config/sidebars/Learn";
 import { archive } from "./config/sidebars/Archive";
@@ -17,7 +18,6 @@ export default withPwa(
 		themeConfig: {
 			outline: [2, 3],
 			nav: [
-				{ text: "Home", link: "/" },
 				{ text: "Learn", link: "/learn/" },
 				{ text: "Archive", link: "/archive/" },
 				{ text: "About", link: "/about/" }
