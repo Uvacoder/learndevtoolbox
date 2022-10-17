@@ -73,3 +73,83 @@ An abstract class is the intersection set of common characteristics from a set o
         - Primates
           - Monkeys
           - Humans
+
+#### Composition vs Classification Hierarchies
+
+| Composition Hierarchy                                                                                        | Classification Hierarchy                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Emerges from the **union of the object parts of a whole** that is as well part of a whole that is as well... | Emerges from the **intersection of the characteristics of similar classes** that at the same time descends from another base class that at the same time... |
+| ![Composition hierarchy](./assets/partOfWhole.png)                                                           | ![Classification hierarchy](./assets/classification.png)                                                                                                    |
+| A part is an element of the whole and is the whole for other parts                                           | A derived class is an specialization of the base class and is the base of other specializations                                                             |
+| Example: You are the set of organs that each one is a set of tissue which is a set of cells...               | Example: People is the union of the set of men and women with their general, common and shared characteristics                                              |
+
+#### Aggregation vs Multiple Classification Hierarchies
+
+| Aggregation Hierarchy                                                    | Multiple Classification Hierarchy                                         |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| A part object belongs to many whole objects                              | A derived class shares characteristics with many base classes             |
+| ![Aggregation hierarchy](./assets/aggregation.png)                       | ![Multiple Classification hierarchy](./assets/multipleClassification.png) |
+| I belong to the family I was raised in and the one I created when I grew | My cousin is Spanish and French, double nationality                       |
+|                                                                          |                                                                           |
+
+#### Association relationship
+
+Sets do not have order but can be created from itself, order is an **emergent characteristic**!
+
+- From nothing to quantic matter
+- From matter to life in DNA, self-replicable
+- From noise to data by collaboration
+- From data to information by association
+- From life to intelligence by neural networks
+- From intelligence to conscience by the free will?
+
+Ordered Pair (a,b), a --> b, ...
+
+![Order from set](./assets/orderFromSet.png)
+
+#### Objects structures
+
+##### Sequence
+
+Conditions:
+
+- 0..1 previous elements (0 for the **first** element)
+- 0..1 next elements (0 for the **last** element)
+
+![Sequence](./assets/sequence.png)
+
+---
+
+##### Tree
+
+Conditions:
+
+- 0..1 previous elements (0 for the **root** element)
+- 0..N next elements (0 for the **last** elements)
+
+![Tree](./assets/tree.png)
+
+---
+
+##### Graph
+
+Conditions:
+
+- 0..N previous elements (0 or N for any element)
+- 0..N next elements (0 or N for any element)
+
+![Graph](./assets/graph.png)
+
+---
+
+##### Hierarchy
+
+Conditions:
+
+- 0..N previous elements (0 or N for any element)
+- 0..N next elements (0 or N for any element)
+- **Without cycles**
+
+![Hierarchy](./assets/hierarchy.png)
+
+### Classification strategies
