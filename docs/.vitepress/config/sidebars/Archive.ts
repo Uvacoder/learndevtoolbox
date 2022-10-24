@@ -17,6 +17,10 @@ export const archive: DefaultTheme.SidebarGroup[] = [
 			{
 				text: "Domain model",
 				link: "/archive/concepts-definitions/domain-model/"
+			},
+			{
+				text: "Hierarchy",
+				link: "/archive/concepts-definitions/hierarchy/"
 			}
 		]
 	},

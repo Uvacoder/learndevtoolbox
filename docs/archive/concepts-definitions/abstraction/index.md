@@ -12,7 +12,7 @@ Take into account that classes obtained through abstraction may **not** be **abs
 
 ## Example
 
-In this example we are going to look at two different classes that have some common **properties** and **methods**. Through abstraction we'll to be able to define an abstract class from which they will inherit.
+In this example we are going to take a look at two different classes that have some common **properties** and **methods**. Through abstraction we'll to be able to define a parent class from which they will inherit.
 
 _Person class_
 
@@ -32,7 +32,7 @@ As we can see we have defined properties and methods that can be found in both c
 
 It makes complete sense because the details of how a `Person` runs are very different from how a `Cat` runs (just picture a person running on their two feet and a cat on their four paws).
 
-We should always review the classes that triggered that abstraction to make use they now inherit the new class.
+We should always review the classes that triggered that abstraction to make sure they now inherit the new class.
 
 _Person class_
 
@@ -41,3 +41,7 @@ _Person class_
 _Cat class_
 
 <<< @/archive/concepts-definitions/abstraction/snippets/Cat.abstracted.ts
+
+## Benefits
+
+By using abstraction we are able to remove duplicated code while also creating or expanding our [classification hierarchy](/archive/concepts-definitions/hierarchy/).

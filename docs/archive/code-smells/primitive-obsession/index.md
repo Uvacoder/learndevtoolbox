@@ -3,12 +3,12 @@
 ## Signs and Symptoms 🔍
 
 - Use of primitives instead of small objects for simple tasks (such as currency, ranges, special strings for phone numbers, etc.)
-- Use of constants for coding information (such as a constant USER_ADMIN_ROLE = 1 for referring to users with administrator rights.)
+- Use of constants for coding information (such as a constant `USER_ADMIN_ROLE = 1` for referring to users with administrator rights.)
 - Use of string constants as field names for use in data arrays.
 
 ## Reasons for the Problem 💥
 
-Like most other smells, primitive obsessions are born in moments of weakness. “Just a field for storing some data!” the programmer said. Creating a primitive field is so much easier than making a whole new class, right? And so it was done. Then another field was needed and added in the same way. Lo and behold, the class became huge and unwieldy.
+Like most other smells, **primitive obsessions** are born in moments of weakness. _“Just a field for storing some data!”_ the programmer said. Creating a primitive field is so much easier than making a whole new class, right? And so it was done. Then another field was needed and added in the same way. Long and behold, the class became huge and unwieldy.
 
 Primitives are often used to “simulate” types. So instead of a separate data type, you have a set of numbers or strings that form the list of allowable values for some entity. Easy-to-understand names are then given to these specific numbers and strings via constants, which is why they’re spread wide and far.
 
