@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./app.192b32a7.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"learn/recurrence/complexity/index.md","lastUpdated":1665147636000}'),a={name:"learn/recurrence/complexity/index.md"};function n(c,o,s,d,i,p){return t(),r("div")}const m=e(a,[["render",n]]);export{_ as __pageData,m as default};
