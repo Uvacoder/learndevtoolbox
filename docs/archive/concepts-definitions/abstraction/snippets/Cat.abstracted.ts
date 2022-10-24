@@ -8,6 +8,6 @@ export class Cat extends Animal {
 	}
 
 	public run() {
-		// Implement how a Tier runs
+		// Implement how a Cat runs
 	}
 }
