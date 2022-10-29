@@ -2,8 +2,8 @@
 
 ## Definition
 
-_Coming soon..._
+Process by which the support of the characteristics of a class are hidden. 
 
 ## Example
 
-_Coming soon..._
+

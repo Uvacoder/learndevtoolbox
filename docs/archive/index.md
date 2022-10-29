@@ -11,6 +11,7 @@ So, what are you looking for?
 - [Abstraction](./concepts-definitions/abstraction/)
 - [Encapsulation](./concepts-definitions/encapsulation/)
 - [Domain model](./concepts-definitions/domain-model/)
+- [Hierarchy](./concepts-definitions/hierarchy/)
 
 ### Code smells
 
