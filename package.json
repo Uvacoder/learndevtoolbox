@@ -9,7 +9,7 @@
 		"docs:dev": "vitepress dev docs",
 		"docs:build": "vitepress build docs",
 		"docs:serve": "vitepress serve docs",
-		"docs:publish": "yarn docs:build && git add docs/.vitepress/dist -f && git commit -m \"New dist version\" && git subtree push --prefix docs/.vitepress/dist origin gh-pages && git push origin",
+		"docs:publish": "yarn docs:build",
 		"prettify": "prettier --write ."
 	},
 	"devDependencies": {
