@@ -25,9 +25,9 @@ export default withPwa(
 			socialLinks: [
 				{
 					icon: "github",
-					link: "https://github.com/colasin16/developer-toolbox"
+					link: "https://github.com/uvacoder/developer-toolbox"
 				},
-				{ icon: "linkedin", link: "https://es.linkedin.com/in/jordicolas" }
+				{ icon: "linkedin", link: "https://es.linkedin.com/in/alecbcampbell" }
 			],
 			sidebar: {
 				"/learn/": learn,
