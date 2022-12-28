@@ -2,7 +2,7 @@
 layout: home
 
 hero:
- name: Developer Toolbox
+ name: Learning with Developer Toolbox
  text: Software knowledge at your reach
  tagline: A place to find all you'll need in your day to day life as a software developer.
  actions:
@@ -11,5 +11,5 @@ hero:
     link: /welcome
   - theme: alt
     text: View on GitHub
-    link: https://github.com/colasin16/developer-toolbox
+    link: https://github.com/uvacoder/learndevtoolbox
 ---
