@@ -8,8 +8,8 @@ import { heads } from "./config/Heads";
 
 export default withPwa(
 	defineConfig({
-		base: "/developer-toolbox/",
-		title: "Developer Toolbox",
+		base: "/learndevtoolbox/",
+		title: "Learning with Developer Toolbox",
 		description:
 			"A place where you can find valuable knowledge about software architecture",
 		markdown: { lineNumbers: true },
@@ -25,7 +25,7 @@ export default withPwa(
 			socialLinks: [
 				{
 					icon: "github",
-					link: "https://github.com/uvacoder/developer-toolbox"
+					link: "https://github.com/uvacoder/learndevtoolbox"
 				},
 				{ icon: "linkedin", link: "https://es.linkedin.com/in/alecbcampbell" }
 			],
